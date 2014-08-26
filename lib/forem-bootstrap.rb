@@ -1,7 +1,7 @@
 require 'forem'
 require 'bootstrap-sass'
 module Forem
-  module Bootstrap
+  module Legion
     class Engine < Rails::Engine
     end
   end

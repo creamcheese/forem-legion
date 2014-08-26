@@ -1,16 +1,16 @@
 # -*- encoding: utf-8 -*-
 $:.push File.expand_path("../lib", __FILE__)
-require "forem-bootstrap/version"
+require "forem-legion/version"
 
 Gem::Specification.new do |s|
-  s.name        = "forem-bootstrap"
-  s.version     = Forem::Bootstrap::VERSION
+  s.name        = "forem-legion"
+  s.version     = Forem::Legion::VERSION
   s.platform    = Gem::Platform::RUBY
-  s.authors     = ["Ryan Bigg"]
-  s.email       = ["radarlistener@gmail.com"]
+  s.authors     = ["Matthew Osborn"]
+  s.email       = ["creamcheese@phoenix-legion.com"]
   s.homepage    = ""
-  s.summary     = %q{Basic Bootstrap theme for forem.}
-  s.description = %q{basic Bootstrap theme for forem.}
+  s.summary     = %q{Phoenix Legion forem theme.}
+  s.description = %q{Forem theme based on original forem-bootstrap.}
 
   s.files         = `git ls-files`.split("\n")
   s.test_files    = `git ls-files -- {test,spec,features}/*`.split("\n")

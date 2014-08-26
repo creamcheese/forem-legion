@@ -1,5 +1,5 @@
 module Forem
-  module Bootstrap
+  module Legion
     VERSION = "0.0.1"
   end
 end
